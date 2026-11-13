@@ -1,0 +1,25 @@
+
+=== src\exports\DinhTuanThanh_persons.zip (label `person`) ===
+  [CẢNH BÁO] 000000043968.jpg #1: cặp knee, ankle nằm ngược phía so với các cặp còn lại. Có thể đổi trái/phải một cặp (`lr_swap`), hoặc tay / chân bắt chéo thật: kiểm lại.
+  [CẢNH BÁO] 000000123544.jpg #2: cặp hip, knee nằm ngược phía so với các cặp còn lại. Có thể đổi trái/phải một cặp (`lr_swap`), hoặc tay / chân bắt chéo thật: kiểm lại.
+  [CẢNH BÁO] 000000225138.jpg #1: cặp knee nằm ngược phía so với các cặp còn lại. Có thể đổi trái/phải một cặp (`lr_swap`), hoặc tay / chân bắt chéo thật: kiểm lại.
+  [CẢNH BÁO] 000000309169.jpg #1: cặp hip, knee, ankle nằm ngược phía so với các cặp còn lại. Có thể đổi trái/phải một cặp (`lr_swap`), hoặc tay / chân bắt chéo thật: kiểm lại.
+  [CẢNH BÁO] 000000508269.jpg #1: các điểm chỉ trải cao 46 px (< 60 px). Người dưới 60 px không gán; nếu người cao hơn nhưng bị cắt khung thì bỏ qua cảnh báo này.
+  [CẢNH BÁO] 000000508269.jpg #2: cặp knee, ankle nằm ngược phía so với các cặp còn lại. Có thể đổi trái/phải một cặp (`lr_swap`), hoặc tay / chân bắt chéo thật: kiểm lại.
+
+=== src\exports\DinhTuanThanh_faces.zip (label `face`) ===
+
+----- TÓM TẮT (dán vào báo cáo mục 5) -----
+- File person: DinhTuanThanh_persons.zip
+  Số ảnh: 12 · số skeleton `person`: 21 · mỗi annotation 51 số
+  Skeleton theo ảnh: 000000030960=2, 000000043968=1, 000000072098=1, 000000106051=2, 000000123544=2, 000000177889=1, 000000225138=1, 000000309169=3, 000000311300=2, 000000393909=2, 000000467300=2, 000000508269=2
+  Cờ v: v=2 235 (66%) · v=1 71 (20%) · v=0 51 (14%)
+  num_keypoints trung bình: 14.6
+- File face: DinhTuanThanh_faces.zip
+  Số ảnh: 8 · số skeleton `face`: 8 · mỗi annotation 39 số
+  Skeleton theo ảnh: face_147624=1, face_175798=1, face_264124=1, face_294580=1, face_300399=1, face_442231=1, face_514826=1, face_575921=1
+  Cờ v: v=2 94 (90%) · v=1 10 (10%) · v=0 0 (0%)
+  num_keypoints trung bình: 13.0
+- Ghi chú: 51 điểm v = 0 vẫn mang tọa độ cũ (CVAT 2.x xuất như vậy; chuẩn COCO ghi 0, 0). Không phải lỗi: điểm v = 0 bị bỏ qua khi huấn luyện và khi chấm.
+- Số [LỖI]: 0 · số [CẢNH BÁO]: 6
+Kết quả: ĐẠT (đọc lại từng cảnh báo ở trên)
